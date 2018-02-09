@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-image: url("../img/bg3.jpg");
+  height: 4700px;
+  background-repeat: none;
+  background-size: cover; }
+
+.phone {
+  font-size: 54px;
+  margin-top: 30px;
+  color: white;
+  font-family: "roboto", Sans serif; }
+
+.social {
+  margin-top: 30px;
+  margin-right: 20px; }
+
+.square {
+  margin-top: 320px;
+  line-height: 75px;
+  background-color: #750413;
+  width: 100%;
+  height: 75px; }
+
+.links ul li {
+  display: inline;
+  margin-right: 15px; }
+  .links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+    font-family: "Roboto Light", Sans Serif;
+    letter-spacing: 0.5px; }
+
+.logo_wrap {
+  text-align: center; }
+
+.logo {
+  margin-top: -40%;
+  width: 100%; }
+
+.first_btn {
+  margin-top: 400px; }
+  .first_btn div button {
+    background-color: #750413;
+    width: 100%;
+    line-height: 120px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "a_FuturaOrtoSh", Sans Serif;
+    font-size: 80px;
+    box-shadow: 5px 5px 5px rgba(127, 10, 22, 0.5);
+    outline: none; }
+
+.about {
+  color: white;
+  margin-top: 370px; }
+  .about h1 {
+    text-align: center;
+    font-family: "a_FuturaOrtoSh", Sans Serif;
+    font-size: 72px; }
+  .about p {
+    font-size: 36px;
+    font-family: "Roboto Light", Sans Serif;
+    line-height: 38px;
+    margin-top: 30px; }
+
+.portfolio {
+  margin-top: 320px;
+  text-align: center; }
+
+.portfolio_title {
+  font-family: "a_FuturaOrtoSh", Sans Serif;
+  color: white;
+  font-size: 64px;
+  margin-top: 200px; }
+
+.slides0 {
+  width: 300px;
+  height: 200px;
+  background-color: red; }
+
+.slider {
+  margin-top: 100px; }
+  .slider div {
+    width: 100%;
+    height: 400px;
+    background-color: red; }
+
+.tab1, .tab2, .tab3 {
+  width: 100%;
+  background-color: red;
+  height: 100px;
+  transition-duration: 2s; }
+
+.offer {
+  margin-top: 200px; }
+  .offer .col-6 {
+    text-align: center; }
+    .offer .col-6 h1 {
+      font-family: "a_FuturaOrtoSh", Sans Serif;
+      color: white;
+      font-size: 64px;
+      margin-bottom: 50px;
+      letter-spacing: 3px; }
+
+.tab1, .tab2, .tab3 {
+  margin-top: 40px;
+  background-image: url("../img/wedding.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center 0px;
+  text-align: center;
+  padding-top: 30px; }
+  .tab1 h1, .tab2 h1, .tab3 h1 {
+    font-family: "a_FuturaOrtoSh", Sans Serif;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 44px; }
+
+.tab2 {
+  background-image: url("../img/club.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center 0px; }
+
+.tab3 {
+  background-image: url("../img/Whiskylive.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center 0px; }
+
+.tab1, .tab2, .tab3 {
+  overflow: hidden; }
+  .tab1 p, .tab2 p, .tab3 p {
+    display: none;
+    color: white;
+    padding: 25px 50px;
+    font-family: "Roboto Light", Sans Serif;
+    letter-spacing: 1px;
+    font-size: 24px; }
+
+.wedding {
+  display: none; }
+
+.callback {
+  text-align: center;
+  font-family: "a_FuturaOrtoSh", Sans Serif;
+  font-size: 44px;
+  color: white; }
+
+h3 {
+  margin-bottom: 40px; }
+
+.form {
+  margin-top: 100px; }
+  .form div form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.form_input {
+  width: 300px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px; }
+
+form button {
+  width: 200px;
+  line-height: 50px;
+  background-color: #750413;
+  border: none;
+  color: white;
+  font-family: "a_FuturaOrtoSh", Sans Serif;
+  font-size: 26px;
+  border-radius: 5px;
+  border: none;
+  outline: none; }
+
+.callback_number {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-family: "Roboto Light", Sans Serif;
+  line-height: 36px;
+  font-size: 32px; }
+  .callback_number strong {
+    font-weight: bold; }
+
+.gallery {
+  margin-top: 100px;
+  height: 460px; }
+  .gallery div {
+    padding: 0px 0px;
+    height: 100px; }
+
+.last_img {
+  height: 460%;
+  width: 101%; }
+
+.footer {
+  width: 120%;
+  background-color: black;
+  height: 100px; }
